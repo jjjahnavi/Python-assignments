@@ -2,7 +2,7 @@
 n=input("enter your name")
 print(n)
 
-# Write a program for a Single line comment and multi-line comments
+# program for a Single line comment and multi-line comments
 print("# This is a single-line comment")
 print('''"""This is a multi-line comment"""''')
 
