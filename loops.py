@@ -1,25 +1,25 @@
-#program to print “Bright IT Career” ten times using for loop
+# 1.program to print “Bright IT Career” ten times using for loop
 for i in range(10):
     print("Bright IT Career")
 
-#program to print 1 to 20 numbers using the while loop.
+#2. program to print 1 to 20 numbers using the while loop.
 i = 1
 while i <= 20:
     print(i)
     i += 1
-#Program to equal operator and not equal operators
+#3. Program to equal operator and not equal operators
 a = 5
 b = 10
 print(a == b)  
 print(a != b)
 
-#program to print the odd and even numbers
+#4. program to print the odd and even numbers
 for i in range(1, 21):
     if i % 2 == 0:
         print(f"{i} is Even")
     else:
         print(f"{i} is Odd")
-#program to print largest number among three numbers       
+#5. program to print largest number among three numbers       
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 c = int(input("Enter third number: "))
@@ -33,7 +33,7 @@ else:
 
 print("Largest number is:", largest)
 
-#program to print even number between 10 and 20 using while
+#6. program to print even number between 10 and 20 using while
 i = 10
 while i <= 20:
     if i % 2 == 0:
@@ -41,7 +41,8 @@ while i <= 20:
     i += 1
 
 
-#program to print 1 to 10 using the do-while loop statement. 
+#7.program to print 1 to 10 using the do-while loop statement.
+ 
 i = 1
 while True:
     print(i)
@@ -49,7 +50,7 @@ while True:
     if i > 10:
         break
 
-#program to find prime number or not
+#8. program to find prime number or not
 num = int(input("Enter a number: "))
 if num > 1:
     for i in range(2, num):
@@ -62,7 +63,7 @@ else:
     print("Not Prime")
 
 
-#program to find Armstrong number or not
+#9. program to find Armstrong number or not
 a=int(input())
 t=a
 s=0
@@ -79,7 +80,7 @@ else:
     
 
 
-#program to palindrome or not
+#10. program to palindrome or not
 num = input("Enter a number: ")
 rev = ""
 
@@ -91,12 +92,14 @@ if num == rev:
 else:
     print("Not a Palindrome")
 
-#Program to check whether a number is EVEN or ODD using switch
+#11. Program to check whether a number is EVEN or ODD using switch
+
 num = int(input("Enter a number: "))
 switch = {0: "Even", 1: "Odd"}
 print(switch[num % 2])
 
-#Printing gender (Male/Female) program according to given M/F using switch
+#12. Printing gender (Male/Female) program according to given M/F using switch
+
 gender = input("Enter M or F: ").upper()
 switch = {"M": "Male", "F": "Female"}
 print(switch.get(gender, "Invalid Input"))
